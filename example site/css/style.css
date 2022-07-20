@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    /* убрать подчеркивание */
+    text-decoration: none;
+}
+
+nav a {
+    color: gray;
+}
+
+.container {
+    /* ширина контейнера */
+    width: 100%;
+}
+
+.title {
+    /* расположить слева */
+    float: left;
+}
+
+nav {
+    /* расположить справа */
+    float: right;
+}
+
+nav h3 {
+    /* начертание шрифта (чтобы он не был жирным) */
+    font-weight: 100;
+}
+
+.header {
+    /* фоновый цвет */
+    background-color: #edf6f9;
+    /* отступы */
+    padding: 2% 2%;
+}
+
+.clearfix {
+    /* отменяет действие обтекание свойства float */
+    clear: both;
+    /* делает объект невидимым */
+    visibility: hidden;
+    /* устанавливаем высоту */
+    height: 0;
+}
+
+.head-content {
+    background-color: #83c5be;
+}
+
+.page-desc {
+    float: left;
+}
+
+.page-desc h1,
+.page-desc h3 {
+    /* меняем показ текста, чтобы они были расположены в одной строке */
+    display: inline-block;
+    margin: 4% 0%;
+}
+
+.page-desc p {
+    margin: 4% 0%;
+}
+
+.page-desc {
+    /* устанавливаем отступ между абзацами */
+    line-height: 0.5;
+    padding: 10% 3%;
+}
+
+.page-desc h3 {
+    padding-left: 0.5%;
+    font-weight: 100;
+}
+
+.page-desc p {
+    /* задаем размер шрифта */
+    font-size: 1.2rem;
+}
+
+.page-desc h2 {
+    color: white;
+    padding-top: 2%;
+}
+
+.page-desc a {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+a:hover {
+    /* поменять цвет текста при наведении мышки */
+    color: black;
+}
+
+.head-content img {
+    width: 40%;
+    float: right;
+    margin: 3% 3%;
+}
+
+.projects {
+    background-color: #edf6f9;
+}
+
+.projects h2 {
+    text-align: center;
+    padding-top: 2%;
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+
+.projects img {
+    width: 25%;
+}
+
+.oquspace {
+    float: left;
+    margin: 2% 12%;
+}
+
+.national-dynasty {
+    float: right;
+    margin: 2% 12%;
+}
+
+.footer {
+    background-color: black;
+    padding: 1%;
+}
+
+.footer p {
+    font-size: 1.2rem;
+    /* разместить текст по центру */
+    text-align: center;
+    color: white;
+    line-height: 140%;
+}

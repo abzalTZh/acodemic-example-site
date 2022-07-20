@@ -1,0 +1,40 @@
+.head-content {
+    background-color: #83c5be;
+}
+
+.page-desc h1,
+.page-desc h3 {
+    display: inline-block;
+}
+
+.page-desc a {
+    text-decoration: none;
+    transition: 1s;
+}
+
+.page-desc a:hover {
+    color: black;
+}
+
+.sm-page-desc-img {
+    max-width: 90%;
+    max-height: 90%;
+    width: auto;
+    display: block;
+}
+
+.logo1,
+.logo2 {
+    background-color: gray;
+    border-radius: 50%;
+    width: 25vw;
+    height: 25vw;
+}
+
+.logo1 {
+    margin-left: 25%;
+}
+
+.logo2 {
+    margin-right: 25%;
+}
